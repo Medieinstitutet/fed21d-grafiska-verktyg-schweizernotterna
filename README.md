@@ -3,6 +3,6 @@
 
 ## Design för det fiktiva företaget Fridfull jul AB av Fanny Lundberg
 
-#### Det är ett företag som är inriktat på julen så har jag valt att ha färger så som grönt och rött men jag har valt varma och lugna toner. Detta för att skapa en känsla av värme, omtanke men också framförallt ge ett lugnt och mjukt intryck. Därför har jag även valt att ha rundade hörn på rutor, knappar, inputfält etc. 
+##### Det är ett företag som är inriktat på julen så har jag valt att ha färger så som grönt och rött men jag har valt varma och lugna toner. Detta för att skapa en känsla av värme, omtanke men också framförallt ge ett lugnt och mjukt intryck. Därför har jag även valt att ha rundade hörn på rutor, knappar, inputfält etc. 
 
-#### Typsnitten är en blandning av klassisk "god jul"-font och en rundad, lugnare och mer lättläst font.
+##### Typsnitten är en blandning av klassisk "god jul"-font och en rundad, lugnare och mer lättläst font.
