@@ -2,7 +2,6 @@
 # FED21D Grafiska Verktyg 🎨
 
 ## Design för fiktivt företag (Fridfull jul) av Fanny Lundberg
-======
 
 ##### Det är ett företag som är inriktat på julen så har jag valt att ha färger så som grönt och rött men jag har valt varma och lugna toner. Detta för att skapa en känsla av värme, omtanke men också framförallt ge ett lugnt intryck. Därför har jag även valt att ha rundade hörn på rutor, knappar, inputfält etc. 
 
