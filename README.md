@@ -8,4 +8,4 @@
 
 ##### Typsnitten är en blandning av klassisk "god jul"-font och en rundad, lugnare och mer lättläst font.
 
-##### I designen så finns det många bilder. Dessa har valts för att hjälpa besökaren att associera med allt det trevliga som hör julen till. Och få personen att känna att man kan få det så mysigt och trevlig med sin familj, utan all stress som allt julstök kan innebära.
+##### I designen så finns det många bilder. Dessa har valts för att hjälpa besökaren att associera med allt det trevliga som hör julen till. Och få personen att känna att man kan få det mysigt och trevlig med sin familj, utan all stress som allt julstök kan innebära.
