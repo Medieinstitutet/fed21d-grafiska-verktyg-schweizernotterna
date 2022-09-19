@@ -1,6 +1,160 @@
+//färger
 $christmastree: #506757;
 $gold: #d0af96;
 
 $merryxmas: #ac5444;
 $rudolf: #896555;
-$silver: #cdd1d1
+$silver: #cdd1d1;
+
+
+body {
+    background-color: $christmastree;
+    color: black;
+}
+
+
+// text
+h1 {
+    font-family: 'Ms Madi', cursive;
+    font-size: 64px;
+    font-weight: 400;
+
+    span {
+        font-family: 'Ms Madi', cursive;
+        font-size: 64px;
+        color: $merryxmas;
+    }
+}
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 36px;
+}
+
+h4 {
+    font-family: 'Abel', sans-serif;
+    font-size: 24px;
+}
+
+h5, h6 {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+#sectionOne {
+    #animation {
+        width: 62px;
+        height: 83px;
+    }
+
+    img {
+        position: absolute;
+        left: -38px;
+        top: -15px;
+    }
+
+    nav {
+
+        span {
+            display: block;
+            position: relative;
+            width: 40px;
+            height: 7px;
+            background-color: $gold;
+            border-radius: 8px;
+            outline: 1px solid rgba($color: #000000, $alpha: 0.3);
+            z-index: 1;
+            margin-bottom: 4px;
+            top: 11px;
+            left: 320px;
+        }
+    } 
+
+    h2 {
+        position: absolute;
+        top: 35%;
+        left: 7px;
+    }
+
+    h1 {
+        position: absolute;
+        top: 42%;
+        left: 30px;
+    }
+
+    #line {
+        position: absolute;
+        background-color: black;
+        height: 3px;
+        width: 112px;
+        transform: rotate(-14.56deg);
+        top: 51%;
+        left: 30px;
+    }
+
+    div {
+        position: absolute;
+        background-color: $gold;
+        width: 255px;
+        height: 210px;
+        border-radius: 20px;
+        box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.35);
+        left: 59px;
+        top: 58%;
+
+        h4 {
+            margin-top: 20%;
+            text-align: center;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        button {
+            font-family: 'Abel', sans-serif;
+            font-size: 24px;
+            background-color: $christmastree;
+            color: #fff;
+            width: 145px;
+            height: 51px;
+            border-radius: 11px;
+            box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+            margin-left: 22%;
+            border: 0px;
+        }
+
+    }
+
+}
+
+
+#sectionTwo {
+    outline: 1px solid yellow;
+}
+
+#sectionThree {
+    outline: 1px solid blue;
+}
+
+#sectionBooking {
+    outline: 1px solid black;
+}
+
+#sectionAbout {
+    outline: 1px solid pink;
+}
