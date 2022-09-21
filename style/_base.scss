@@ -10,6 +10,7 @@ $silver: #cdd1d1;
 body {
     background-color: $christmastree;
     color: black;
+
 }
 
 
@@ -28,7 +29,7 @@ h1 {
 
 h2 {
     font-family: 'Abel', sans-serif;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 400;
 }
 
@@ -56,10 +57,65 @@ p {
     font-size: 20px;
 }
 
+// meny öppen
+.MenuSection {
+    position: absolute;
+    background-color: $gold;
+    z-index: 244;
+
+
+    button {
+        background-color: transparent;
+        border: 0;
+    }
+    #closeMenu {
+        width: 78px;
+        height: 78px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+        #spanOne {
+            display: block;
+            position: relative;
+            width: 40px;
+            height: 7px;
+            background-color: $christmastree;
+            border-radius: 8px;
+            outline: 1px solid rgba($color: #000000, $alpha: 0.3);
+            transform: rotate(-45deg);
+            top: 37px;
+            left: 310px;
+        }
+
+        #spanTwo {
+            display: block;
+            position: relative;
+            width: 40px;
+            height: 7px;
+            background-color: $christmastree;
+            border-radius: 8px;
+            outline: 1px solid rgba($color: #000000, $alpha: 0.3);
+            transform: rotate(45deg);
+            top: 30px;
+            left: 311px;
+        }
+    
+    h2 {
+        position: relative;
+        margin-top: 57px;
+        top:  155px;
+        left: 103px;
+    }
+} 
+
+
 section {
     width: 100vw;
     height: 100vh;
     position: relative;
+    overflow-x: hidden;
 }
 
 #sectionStart {
@@ -76,8 +132,15 @@ section {
         position: absolute;
         left: -38px;
         top: -15px;
+        object-fit: none;
+        overflow: hidden;
+    }
+    
+    .image_tablet {
+        display: none;
     }
 
+    //meny
     nav {
 
         span {
@@ -104,7 +167,7 @@ section {
     h1 {
         position: absolute;
         font-size: 64px;
-        top: 35%;
+        top: 37%;
         left: 30px;
     }
 
@@ -114,7 +177,7 @@ section {
         height: 3px;
         width: 112px;
         transform: rotate(-14.56deg);
-        top: 48%;
+        top: 50%;
         left: 28px;
     }
 
@@ -160,6 +223,10 @@ section {
         width: 506px;
         left: -126px;
 
+    }
+
+    .imgTwo_tablet {
+        display: none;
     }
 
     h3 {
@@ -403,5 +470,52 @@ footer {
     #footerColumn {
         margin-left: 25%;
         margin-top: 5%;
+    }
+}
+
+// Cookiebar
+.CookieBar {
+    position: fixed;
+    background-color: $rudolf;
+    bottom: 0px;
+    width: 100%;
+    height: 75px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    #CookieText {
+        font-size: 16px;
+        color: #fff;
+    }
+
+    #btns {
+        position: absolute;
+        right: 2px;
+        top: 10px;
+    }
+
+    #btnAcc {    
+        font-family: 'Abel', sans-serif;
+        font-size: 18px;
+        background-color: $christmastree;
+        color: #fff;
+        width: 100px;
+        height: 35px;
+        border-radius: 11px;
+        box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+        border: 0px;
+    }
+
+    #btnDen {
+        font-family: 'Abel', sans-serif;
+        font-size: 18px;
+        background-color: $merryxmas;
+        color: #fff;
+        width: 100px;
+        height: 35px;
+        margin: 8px;
+        border-radius: 11px;
+        box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+        border: 0px;
     }
 }
