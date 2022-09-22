@@ -1,0 +1,249 @@
+@media screen and (min-width: 1024px) {
+
+    #sectionStart {
+    
+        img {
+            left: 0px;
+            top: 0px;
+            object-fit: cover;
+        }
+        
+        .image_tablet {
+            display: none;
+
+        } .image_desktop {
+            display: block;
+            width: 1920px;
+            height: 930px;
+        }
+    
+        //meny
+        #HamburgerMenu {
+            display: none;
+        } 
+
+        #DesktopNav {
+            position: relative;
+            background: rgba(217, 217, 217, 0.45);
+            top: -15px;
+            height: 121px;
+
+            ul {
+                list-style: none;
+                position: absolute;
+                right: 0px;
+                bottom: -30px;
+            }
+
+            li {
+                float: left;
+                margin: 20px;
+                font-size: 40px;
+                font-family: 'Abel', sans-serif;
+                font-weight: 400;
+            }
+        }
+    
+        h2 {
+            top: 34%;
+            left: 819px;
+        }
+    
+        h1 {
+            top: 37%;
+            left: 836px;
+        }
+    
+        #line {
+            width: 140px;
+            top: 46%;
+            left: 820px;
+        }
+    
+        div {
+            width: 700px;
+            height: 268px;
+            left: 28px;
+            top: 68%;
+    
+            h4 {
+                margin-top: 10%;
+            }
+    
+            button {
+                margin-left: 40%;
+            }
+    
+        }
+    
+    }
+
+    #sectionOne {
+
+        position: absolute;
+
+        img {
+            display: none;
+        }
+
+        h3 {
+            background: rgba(217, 217, 217, 0.65);
+            border-radius: 20px;
+            position: absolute;
+            padding: 50px;
+            margin-top: 24px;
+            left: 73%;
+            width: 18%;
+            text-align: center;
+            z-index: 100;
+        }
+    
+        div {
+            position: absolute;
+            background-color: $silver;
+            width: 368px;
+            height: 478px;
+            border-radius: 20px;
+            box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.35);
+            left: 159px;
+            top: 42%;
+            z-index: 10;
+    
+            h4 {
+                margin-top: 15%;
+            }
+            
+    
+            button {
+                margin-left: 30%;
+                margin-top: 10%;
+            }
+        }
+    }
+
+    #sectionTwo {
+
+        position: absolute;
+
+        img {
+            position: absolute;
+            height: 674px;
+            width: 1920px;
+            left: 0px;
+            object-fit: cover;
+    
+        }
+    
+        div {
+            width: 365px;
+            height: 478px;
+            left: 747px;
+            top: 42%;
+    
+            h4 {
+                margin-top: 15%;
+            }
+
+    
+            button {
+                margin-left: 30%;
+                margin-top: 10%;
+            }
+        }
+    }
+    
+    #sectionThree {
+        
+        img {
+            display: none;
+        }
+    
+        div {
+            width: 365px;
+            height: 478px;
+            left: 1315px;
+            top: 42%;
+    
+            h4 {
+                margin-top: 15%;
+            }
+            
+            p {
+                margin-top: 0%;
+            }
+    
+            button {
+                margin-left: 30%;
+                margin-top: 10%;
+            }
+        }
+    }
+
+    #sectionBooking {
+    
+        form {
+            left: 30%;
+        }
+    
+        div {
+            width: 40vw;
+        }
+    
+        label {
+            float: left;
+        }
+    
+        input {
+            width: 745px;
+            height: 40px;
+        }
+    
+        button {
+            margin-left: 40%;
+            border: 0px;
+        }
+    }
+
+    #sectionAbout {
+        height: 83vh;
+
+        img {
+            top: 0;
+            height: 773px;
+            width: 640px;
+            object-fit: none;
+            z-index: -123;
+        }
+    
+        div {
+            width: 678px;
+            height: 590px;
+            left: 929px;
+            top: 10%;
+    
+            h5 {
+                margin-top: 13%;
+            }
+            
+            p {
+                margin-top: 10%;
+            }
+        }
+    }
+    
+    footer {
+        height: 159px;
+    }
+    
+    // Cookiebar
+    .CookieBar {
+    
+        #CookieText {
+            font-size: 16px;
+            color: #fff;
+            margin-left: 10%;
+        }
+    
+    
+    }
+}

@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     
 
     // meny öppen
@@ -41,6 +41,10 @@ section {
             height: 650px;
             left: 0px;
             object-fit: cover;
+        }
+
+        .image_desktop {
+            display: none;
         }
     
         //meny
