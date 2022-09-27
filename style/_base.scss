@@ -219,7 +219,7 @@ section {
 }
 
 
-#sectionOne {
+.sectionOne {
 
     img {
         position: absolute;
@@ -280,7 +280,7 @@ section {
     }
 }
 
-#sectionTwo {
+.sectionTwo {
 
     img {
         position: absolute;
@@ -325,7 +325,7 @@ section {
     }
 }
 
-#sectionThree {
+.sectionThree {
     
     img {
         position: absolute;
@@ -371,7 +371,7 @@ section {
     }
 }
 
-#sectionBooking {
+.sectionBooking {
     background-color: $gold;
 
     h5 {
@@ -423,7 +423,7 @@ section {
     }
 }
 
-#sectionAbout {
+.sectionAbout {
 
 
     img {
@@ -471,7 +471,7 @@ footer {
         margin: 0px;
     }
 
-    #footerColumn {
+   .footerColumn {
         margin-left: 25%;
         margin-top: 5%;
     }

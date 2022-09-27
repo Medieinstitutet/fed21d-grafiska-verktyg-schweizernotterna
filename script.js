@@ -1,6 +1,5 @@
 // hämtar variabler
 let HamMenu = document.getElementById("HamburgerMenu");
-let sectionStart = document.getElementById("sectionStart")
 
 // klicka på menyn
 HamMenu.addEventListener("click", () => {
@@ -66,4 +65,15 @@ window.addEventListener("load", () => {
     btnDen.addEventListener("click", () => {
         alert("Du måste acceptera cookies!")
     })
+});
+
+
+// animation julkula
+gsap.fromTo('#animation', {
+    opacity: 0,
+}, { 
+    opacity: 1,
+    duration: 3,
+    rotation: 365,
+    transformOrigin: "left right",
 });
