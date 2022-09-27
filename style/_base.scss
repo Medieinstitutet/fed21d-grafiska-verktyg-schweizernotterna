@@ -1,0 +1,525 @@
+//färger
+$christmastree: #506757;
+$gold: #d0af96;
+
+$merryxmas: #ac5444;
+$rudolf: #896555;
+$silver: #cdd1d1;
+
+
+body {
+    background-color: $christmastree;
+    color: black;
+
+}
+
+
+// textfont & storlek
+h1 {
+    font-family: 'Ms Madi', cursive;
+    font-size: 64px;
+    font-weight: 400;
+
+    span {
+        font-family: 'Ms Madi', cursive;
+        font-size: 64px;
+        color: $merryxmas;
+    }
+}
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: 'Abel', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h5, h6 {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+// meny öppen
+.MenuSection {
+    position: absolute;
+    background-color: $gold;
+    z-index: 244;
+
+
+    button {
+        background-color: transparent;
+        border: 0;
+    }
+    #closeMenu {
+        width: 78px;
+        height: 78px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+        #spanOne {
+            display: block;
+            position: relative;
+            width: 40px;
+            height: 7px;
+            background-color: $christmastree;
+            border-radius: 8px;
+            outline: 1px solid rgba($color: #000000, $alpha: 0.3);
+            transform: rotate(-45deg);
+            top: 37px;
+            left: 310px;
+        }
+
+        #spanTwo {
+            display: block;
+            position: relative;
+            width: 40px;
+            height: 7px;
+            background-color: $christmastree;
+            border-radius: 8px;
+            outline: 1px solid rgba($color: #000000, $alpha: 0.3);
+            transform: rotate(45deg);
+            top: 30px;
+            left: 311px;
+        }
+    
+    h2 {
+        position: relative;
+        margin-top: 57px;
+        top:  155px;
+        left: 103px;
+    }
+} 
+
+
+section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+#sectionStart {
+    #animation {
+        position: absolute;
+        width: 106px;
+        height: 150px;
+        left: -10px;
+        top: -25px;
+        z-index: 5;
+    }
+
+    img {
+        position: absolute;
+        left: -38px;
+        top: -15px;
+        object-fit: none;
+        overflow: hidden;
+    }
+    
+    .image_tablet {
+        display: none;
+    }
+
+    .image_desktop {
+        display: none;
+    }
+
+    //meny
+    nav {
+
+        span {
+            display: block;
+            position: relative;
+            width: 40px;
+            height: 7px;
+            background-color: $gold;
+            border-radius: 8px;
+            outline: 1px solid rgba($color: #000000, $alpha: 0.3);
+            z-index: 1;
+            margin-bottom: 4px;
+            top: 11px;
+            left: 320px;
+        }
+    } 
+
+    h2 {
+        position: absolute;
+        top: 33%;
+        left: 7px;
+    }
+
+    h1 {
+        position: absolute;
+        font-size: 64px;
+        top: 37%;
+        left: 30px;
+    }
+
+    #line {
+        position: absolute;
+        background-color: black;
+        height: 3px;
+        width: 112px;
+        transform: rotate(-14.56deg);
+        top: 50%;
+        left: 28px;
+    }
+
+    div {
+        position: absolute;
+        background-color: $gold;
+        width: 255px;
+        height: 210px;
+        border-radius: 20px;
+        box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.35);
+        left: 59px;
+        top: 58%;
+
+        h4 {
+            margin-top: 20%;
+            text-align: center;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        button {
+            font-family: 'Abel', sans-serif;
+            font-size: 24px;
+            background-color: $christmastree;
+            color: #fff;
+            width: 145px;
+            height: 51px;
+            border-radius: 11px;
+            box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+            margin-left: 22%;
+            border: 0px;
+        }
+
+    }
+
+}
+
+
+.sectionOne {
+
+    img {
+        position: absolute;
+        height: 297px;
+        width: 506px;
+        left: -126px;
+
+    }
+
+    .imgTwo_tablet {
+        display: none;
+    }
+
+    h3 {
+        position: absolute;
+        margin-top: 15%;
+        left: 55%;
+        width: 50%;
+        float: right;
+        line-height: 46px;
+        display: flex;
+        align-items: center;
+    }
+
+    div {
+        position: absolute;
+        background-color: $silver;
+        width: 300px;
+        height: 342px;
+        border-radius: 20px;
+        box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.35);
+        left: 38px;
+        top: 42%;
+
+        h4 {
+            margin-top: 10%;
+            text-align: center;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        
+        p {
+            text-align: center;
+        }
+
+        button {
+            font-family: 'Abel', sans-serif;
+            font-size: 24px;
+            background-color: $christmastree;
+            color: #fff;
+            width: 145px;
+            height: 51px;
+            border-radius: 11px;
+            box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+            margin-left: 22%;
+            border: 0px;
+        }
+
+    }
+}
+
+.sectionTwo {
+
+    img {
+        position: absolute;
+        height: 347px;
+        width: 556px;
+        left: -76px;
+
+    }
+
+    div {
+        position: absolute;
+        background-color: $silver;
+        width: 300px;
+        height: 342px;
+        border-radius: 20px;
+        box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.35);
+        left: 38px;
+        top: 42%;
+
+        h4 {
+            margin-top: 10%;
+            text-align: center;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        
+        p {
+            text-align: center;
+        }
+
+        button {
+            font-family: 'Abel', sans-serif;
+            font-size: 24px;
+            background-color: $christmastree;
+            color: #fff;
+            width: 145px;
+            height: 51px;
+            border-radius: 11px;
+            box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+            margin-left: 22%;
+            border: 0px;
+        }
+    }
+}
+
+.sectionThree {
+    
+    img {
+        position: absolute;
+        height: 351px;
+        width: 441px;
+        left: -66px;
+
+    }
+
+    div {
+        position: absolute;
+        background-color: $silver;
+        width: 300px;
+        height: 338px;
+        border-radius: 20px;
+        box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.35);
+        left: 38px;
+        top: 43%;
+
+        h4 {
+            margin-top: 10%;
+            text-align: center;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        
+        p {
+            margin-top: -8%;
+            text-align: center;
+        }
+
+        button {
+            font-family: 'Abel', sans-serif;
+            font-size: 24px;
+            background-color: $christmastree;
+            color: #fff;
+            width: 145px;
+            height: 51px;
+            border-radius: 11px;
+            box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+            margin-left: 22%;
+            border: 0px;
+        }
+    }
+}
+
+.sectionBooking {
+    background-color: $gold;
+
+    h5 {
+        position: relative;
+        top: 35px;
+        text-align: center;
+    }
+
+    form {
+        position: absolute;
+        left: 7%;
+    }
+
+    div {
+        position: relative;
+        width: 100vw;
+        margin-top: 10%;
+    }
+
+    label {
+        font-family: 'Abel', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        margin-left: 3%;
+    }
+
+    input {
+        margin: 3px;
+        background-color: $silver;
+        border-radius: 10px;
+        border: 0;
+        width: 315px;
+        height: 41px;
+        box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+    }
+
+    button {
+        margin-top: 10%;
+        font-family: 'Abel', sans-serif;
+        font-size: 24px;
+        background-color: $christmastree;
+        color: #fff;
+        width: 145px;
+        height: 51px;
+        border-radius: 11px;
+        box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+        margin-left: 22%;
+        border: 0px;
+    }
+}
+
+.sectionAbout {
+
+
+    img {
+        position: relative;
+        top: -10%;
+        height: 323px;
+        width: 459px;
+        object-fit: cover;
+        z-index: -123;
+    }
+
+    div {
+        position: absolute;
+        background-color: $silver;
+        width: 272px;
+        height: 327px;
+        border-radius: 20px;
+        box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.35);
+        left: 52px;
+        top: 35%;
+
+        h5 {
+            margin-top: 13%;
+            text-align: center;
+        }
+        
+        p {
+            margin-top: -3%;
+            text-align: center;
+        }
+    }
+}
+
+footer {
+    position: relative;
+    width: 100vw;
+    height: 75px;
+    background-color: $rudolf;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    p {
+        color: #fff;
+        font-size: 16px;
+        margin: 0px;
+    }
+
+   .footerColumn {
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+}
+
+// Cookiebar
+.CookieBar {
+    position: fixed;
+    background-color: $rudolf;
+    bottom: 0px;
+    width: 100%;
+    height: 75px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    #CookieText {
+        font-size: 16px;
+        color: #fff;
+    }
+
+    #btns {
+        position: absolute;
+        right: 2px;
+        top: 10px;
+    }
+
+    #btnAcc {    
+        font-family: 'Abel', sans-serif;
+        font-size: 18px;
+        background-color: $christmastree;
+        color: #fff;
+        width: 100px;
+        height: 35px;
+        border-radius: 11px;
+        box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+        border: 0px;
+    }
+
+    #btnDen {
+        font-family: 'Abel', sans-serif;
+        font-size: 18px;
+        background-color: $merryxmas;
+        color: #fff;
+        width: 100px;
+        height: 35px;
+        margin: 8px;
+        border-radius: 11px;
+        box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.3);
+        border: 0px;
+    }
+}
